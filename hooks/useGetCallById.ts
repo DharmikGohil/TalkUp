@@ -1,6 +1,6 @@
-import { Call } from "@stream-io/node-sdk"
-import { useStreamVideoClient } from "@stream-io/video-react-sdk"
+import { Call,useStreamVideoClient } from "@stream-io/video-react-sdk"
 import { useEffect, useState } from "react"
+
 
 export const useGetCallById = (id: string | string[])=>{
    const [call,setCall] =  useState<Call>()
