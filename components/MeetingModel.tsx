@@ -56,7 +56,7 @@ const MeetingModel = ({
                 {buttonIcon &&(
                     <Image
                     src={buttonIcon}
-                    alr="Button Icon"
+                    alt="Button Icon"
                     width={13}
                     height={13}
                     />
